@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="bg"></div>
+
+    <a id="location-link" class="photo-view-info" href="#" target="_blank">
+        <div class="location__text">
+            <div id="country" class="location__country"></div>
+            <div id="region" class="location__region"></div>
+            <div id="elevation"></div>
+        </div>
+        <div class="globe">
+            <svg id="globe-svg" width="200" height="200" viewBox="0 0 80 80">
+                <circle class="water" cx="40" cy="40" r="40" />
+
+                <path id="globe-path" class="land" fill="none" stroke="white" stroke-width="0.5" />
+
+                <circle id="globe-marker" cx="40" cy="40" r="2" fill="red" />
+            </svg>
+        </div>
+    </a>
+
+    <script type="module" src="src/index.ts"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* 背景画像 */
+#bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+/* 右下の情報エリア */
+.photo-view-info {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+.location__text {
+    color: white;
+    text-align: right;
+    margin-right: 24px;
+    margin-top: 0.5rem;
+}
+
+.location__country {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0.4rem;
+}
+
+.location__region {
+    font-size: 2rem;
+    font-weight: 500;
+    /* opacity: 0.9; */
+    letter-spacing: 0.1rem;
+}
+
+#elevation {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0.2rem;
+}
+
+/* 地球儀のコンテナ */
+.globe {
+    width: 200;
+    height: 200;
+    margin-top: 2rem;
+    position: relative;
+}
+
+
+#globe-path {
+    /* 陸地の輪郭線を薄いグレーにする */
+    stroke-width: 0.2;
+    /* 輪郭線の太さ */
+    opacity: 0.8;
+}
+
+/* 海の部分 */
+.water {
+    fill: rgba(0, 0, 0, 0.5);
+}
+
+/* 陸地部分 */
+.land {
+    fill: rgba(255, 255, 255, 1);
+    stroke: none;
+}
+
+/* 赤いピンのドット（中心点を(40,40)として配置） */
+#globe-marker {
+    fill: #ff5252;
+    stroke: white;
+    stroke-width: 0.5;
+    filter: drop-shadow(0 0 3px #ff5252);
+    /* 非表示にする場合は display: none; */
+}
