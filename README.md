@@ -11,7 +11,8 @@ https://dodongnish.github.io/earth-view-from-google-earth-web-page-version/
 
 # 使用法
 
-- [Custom New Tab](https://chromewebstore.google.com/detail/custom-new-tab/lfjnnkckddkopjfgmbcpdiolnmfobflj)などのChrome 拡張機能を利用して、新規タブで開くページとしてこのページを指定します。
+- 初期タブとして開く: Google Chrome の Settings >  On startup > Open a specific page or set of pages でこのページを指定します。
+- 新規タブとして開く: [Custom New Tab](https://chromewebstore.google.com/detail/custom-new-tab/lfjnnkckddkopjfgmbcpdiolnmfobflj)などのChrome 拡張機能を利用して、新規タブで開くページとしてこのページを指定します。
 
 # メンテナンス
 
