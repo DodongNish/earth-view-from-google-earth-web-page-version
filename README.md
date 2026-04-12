@@ -3,6 +3,8 @@
 訪問するたびにGoogle Earth から取得した異なる画像を表示します。  
 [Earth View from Google Earth](https://chromewebstore.google.com/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh)のWebページ版です。拡張機能じゃないのでVimiumの操作が効きます。
 
+<img src="https://github.com/user-attachments/assets/cfb7227c-89eb-4246-8186-455fd70ad6c0" width="600">
+
 # 使用法
 
 - [Custom New Tab](https://chromewebstore.google.com/detail/custom-new-tab/lfjnnkckddkopjfgmbcpdiolnmfobflj)などのChrome 拡張機能を利用して、新規タブで開くページとしてこのページを指定します。
