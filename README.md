@@ -4,15 +4,15 @@ https://dodongnish.github.io/earth-view-from-google-earth-web-page-version/
 
 # 概要
 
-訪問するたびにGoogle Earth から取得した異なる画像を表示します。  
-[Earth View from Google Earth](https://chromewebstore.google.com/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh)のWebページ版です。拡張機能じゃないのでVimiumの操作が効きます。
+訪問するたびに Google Earth から取得した異なる画像を表示します。  
+[Earth View from Google Earth](https://chromewebstore.google.com/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh) のWebページ版です。拡張機能じゃないので [Vimium](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) の操作が効きます。
 
 <img src="https://github.com/user-attachments/assets/cfb7227c-89eb-4246-8186-455fd70ad6c0" width="600">
 
 # 使用法
 
-- 初期タブとして開く: Google Chrome の Settings >  On startup > Open a specific page or set of pages でこのページを指定します。
-- 新規タブとして開く: [Custom New Tab](https://chromewebstore.google.com/detail/custom-new-tab/lfjnnkckddkopjfgmbcpdiolnmfobflj)などのChrome 拡張機能を利用して、新規タブで開くページとしてこのページを指定します。
+1. 初期タブとして開く: Google Chrome の Settings >  On startup > Open a specific page or set of pages でこのページを指定します。
+2. 新規タブとして開く: [New Tab Redirect](https://chromewebstore.google.com/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) 等の Chrome 拡張機能を利用して、新規タブで開くページとしてこのページを指定します。
 
 # メンテナンス
 
