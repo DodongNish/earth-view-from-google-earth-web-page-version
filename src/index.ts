@@ -27,6 +27,12 @@ async function updateUI(data: any) {
     const elevationEl = document.getElementById('elevation');
     if (elevationEl) elevationEl.innerText = `${Math.round(data.elevation).toLocaleString()}m`;
 
+
+    const linkEl = document.getElementById('location-link') as HTMLAnchorElement | null;
+    if (linkEl) {
+        linkEl.href = `https://earth.google.com/web/@${data.lat},${data.lng},0a,10000d,30y,0h,0t,0r`;
+    }
+
     if (typeof data.lat === 'number' && typeof data.lng === 'number') {
         updateGlobeUI(data.lat, data.lng);
     }
