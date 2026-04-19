@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,8 @@
     "@types/d3-geo": "^3.1.0",
     "@types/topojson-client": "^3.1.5",
     "typescript": "^6.0.2",
-    "vite": "^8.0.8"
+    "vite": "^8.0.8",
+    "vite-plugin-pwa": "^1.2.0",
+    "workbox-precaching": "^7.4.0"
   }
 }
